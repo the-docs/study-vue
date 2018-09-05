@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "GimYoungPhil <youngphil.gim@gmail.com>",
-  "license": "MIT"
+  "repository": "https://github.com/the-docs/study-vue.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
 }
