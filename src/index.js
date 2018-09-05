@@ -1,1 +1,3 @@
-const foo = 'foo';
+const vue = 'Vue.js';
+
+console.log(`Hello ${vue}`);

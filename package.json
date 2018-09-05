@@ -6,10 +6,11 @@
   "repository": "https://github.com/the-docs/study-vue.git",
   "license": "MIT",
   "scripts": {
-    "start": "webpack"
+    "serve": "webpack-dev-server --mode=development"
   },
   "devDependencies": {
     "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
   }
 }
