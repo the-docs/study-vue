@@ -1,3 +1,3 @@
 const vue = 'Vue.js';
 
-console.log(`Hello ${vue}`);
+console.log(`Hello ${vue}!`);
