@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-success">Hello, {{ msg }}! 123</h1>
+    <h1 class="text-success">Hello, {{ msg }}! 12345</h1>
     <p class="green">this is Vue.js</p>
   </div>
 </template>
