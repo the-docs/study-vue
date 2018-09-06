@@ -9,6 +9,7 @@ module.exports = {
   },
   output: {
     filename: '[name].[chunkhash:8].js',
+    chunkFilename: 'chunk-[name].[chunkhash:8].js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
@@ -38,7 +39,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       template: 'public/index.html'
-    })
+    }),
   ],
   optimization: {
     splitChunks: {
